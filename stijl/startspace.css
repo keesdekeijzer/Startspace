@@ -1,0 +1,401 @@
+@font-face {
+  font-family: "Insula";
+  src: url("../font/insula.ttf");
+}
+
+h1 { 
+		font-family: insula, serif;
+	color: #7C4EDF;
+	font-size: 30px;
+	padding-top: 26px;
+	text-align:center;
+	border-radius: 10px;  
+	text-shadow:3px 3px #CCCCCC;
+	}
+h2 { 
+		font-family: insula, serif;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+h3 { 
+ 	background-color: #FF0000;
+ 	background-image: url(../images/roodbk4.gif);
+	/* height:18px; */
+			font-family: insula, serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight:bold;
+	font-variant: normal;
+	text-decoration: none;
+	color: #FFFFF5;
+	padding: 5px 2px 2px 5px;
+	margin: 1px;
+	text-align: left;
+	border-radius: 5px;  
+	background-image: url(roodster.png);	
+	text-shadow:2px 2px #555555;
+}
+h4 { 
+	font-size: 13px;
+	padding: 3px;
+	color: #787E7F;
+	text-align: center;
+}
+p {
+    padding: 3px;
+    border: 0;
+    margin: 0;
+}
+
+
+#tekst {
+	width: 345px;
+	text-align: left;
+ 	background-color: #FFFFCC;
+	color: #787E7F;
+	margin-bottom: 5px;
+	border-radius: 20px;  
+	border-color: black;
+	border-width: 1px;
+	border-style: solid;
+	padding: 10px;
+	}
+
+.cleartekst {
+    clear: both;
+    margin-bottom: 5px;
+}
+.cleartekst2 {
+    clear: both;
+	margin:0px;
+}
+
+a img {
+	border: none;
+}
+
+
+
+a {
+	color: #F00000;
+}
+td {
+	vertical-align: top;
+}
+
+.top {
+	text-align: center;
+	clear: both;
+	margin: 5px 7px;
+	padding: 2px;	
+	}
+.top h1 {
+	background-color: #FF0000;
+ 	background-image: url(../images/bp550x30.jpg);
+	color: #FFFFFF;
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	padding: 2px;
+	margin: 0px auto 5px auto;
+	height: 26px;
+	}
+.top .banner_slogan {
+	text-align: center;
+	font-size: 14px;
+	padding: 5px 0px;
+}
+.top h2 {
+	color: #3F2DBE;
+	font-size: 18px;
+	padding-bottom: 10px;
+	margin: 0px;
+}
+
+#scroller {
+	clear: both;
+}
+
+
+div {
+	/* margin-bottom: 15px; */
+   }
+
+h3 a {
+	color: #036;
+}
+.beneden p,form,table {
+	background-color: #ffffcf;
+	/* background-image: url(../images/metal735.jpg); */
+	background: linear-gradient(to right, #D6E7FF, white);
+	color: #000000;
+	margin: 1px;
+	padding: 2px;
+}
+
+table {
+	width: 100%;
+	/* background-image: url(../images/metal735.jpg); */
+	background: linear-gradient(to right, #D6E7FF, white);
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	/* clear: both; */
+	/* padding: 20px; */
+	margin: auto;
+}
+
+ul {
+	list-style:none outside none; 
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid black;
+}
+li a {
+	display: block;
+	background-color: #FDFDB0;
+	color: #0000f0;
+	padding: 1px 2px 1px 2px;
+	/* width: 100%; */
+	text-decoration: underline;
+	border: solid 1px #FDFDB0;
+}
+li a:hover {
+	background-color: #EFFFff;
+	color: #f20000;
+	text-decoration: none;
+	border: solid 1px #0000ff;
+}
+a span {
+	text-decoration: none;
+	font-weight: bold;
+	cursor: pointer;
+	color: #00F5F8;
+}
+
+.navigatie div {
+ font-size: 14px;
+ font-weight: bold;
+ font-style: normal !important;
+ /* width: 100%; */
+ border: 1px solid #000000;
+ padding: 0;
+ }
+
+.navigatie ul {
+ list-style: none;
+ margin: 0;
+ margin-bottom: 20px;
+ padding: 0;
+ font-style: normal !important;
+ }
+
+.navigatie ul li {
+ margin: 0;
+ border-top: 1px solid #003;
+ font-style: normal !important;
+ }
+
+.navigatie ul li a {
+ display: block;
+ padding: 2px 2px 2px 4px;
+ border-left: 10px solid #369;
+ border-right: 1px solid #69c;
+ border-bottom: 1px solid #369;
+ background-color: #036;
+ color: #fff;
+ text-decoration: none;
+ /* width: 90%; */
+
+ font-style: normal !important;
+ }
+
+.navigatie ul li a:visited {
+ display: block;
+ padding: 2px 2px 2px 4px;
+ border-left: 10px solid #000;
+ border-right: 1px solid #69c;
+ border-bottom: 1px solid #369;
+ background-color: #036;
+ color: #fff;
+ text-decoration: none;
+ /* width: 90%; */
+
+ font-style: normal !important;
+ }
+
+
+.navigatie ul li a:hover {
+ border-left: 10px solid #036;
+ border-right: 1px solid #69c;
+ border-bottom: 1px solid #369;
+ background-color: #69f;
+ color: #fff;
+ font-style: normal !important;
+ }
+ 
+ 
+
+label {
+	cursor:pointer;
+	}
+.pointer {
+	cursor:pointer;
+	}
+
+.rubriektekst {
+	background-color: #D6E7FF;
+	/* background-image: url(../images/blauwgradient2.jpg); */
+	background: linear-gradient(to right, #D6E7FF, white);
+	}
+	
+.rubriektekst img {
+	width: 100%
+}
+
+.vragen {
+	padding: 10px 10px 0px 35px;
+	}
+.middentekst {
+	width: 365px;
+	height: auto;
+	text-align: left;
+	/* background-image: url(images/roodster.png); */
+	background: linear-gradient(to right, #D6E7FF, white);
+	color: #787E7F;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+form {
+	font-size: 14px;
+	border-radius: 15px;  
+	}
+/*------------------------------------*/
+.blokje div {
+ 	font-size: 14px;
+ 	font-weight: bold;
+ 	font-style: normal !important;
+ 	padding: 0;
+	background-color: #FFFFFF;
+	
+ }
+
+.blokje ul {
+ 	list-style: none;
+	 margin: 0;
+ 	padding: 1px;
+ 	padding-left: 12px;
+ 	font-style: normal !important;
+ 	float: left;
+ 	border-width: 0;
+ 	
+ }
+
+.blokje ul li {
+ 	margin: 0;
+ 	font-style: normal !important;
+ 	display: inline;
+ 	border-radius: 10px; 
+}
+ 	
+.blokje ul li a {
+ 	display: block;
+ 	/* padding: 0px 2px 2px 4px; */
+ 	background-color: #FFFFFF;
+ 	color: #fff;
+ 	text-decoration: none;
+ 	width: 49px;
+ 	height: 49px;
+ 	font-style: normal !important;
+	border-radius: 10px;
+	
+}
+
+.blokje ul li a img {
+	margin: 0;
+	-webkit-transform:scale(0.7);
+	-moz-transform:scale(0.7);
+	-o-transform:scale(0.7);
+	-ms-transform:scale(0.7);
+	transform:scale(0.7); 
+	}
+
+.blokje ul li a:visited {
+ 	display: block;
+ 	/* padding: 0px 2px 2px 4px; */
+	border: 0;
+ 	color: #fff;
+ 	text-decoration: none;
+ 	width: 49px;
+ 	height: 49px;
+ 	font-style: normal !important;
+	border-radius: 10px;
+}
+
+
+.blokje ul li a:hover {
+	/* border: 1px solid #369; */
+	color: #fff;
+	font-style: normal !important;
+	width: 49px;
+	height: 49px;
+ 	border-radius: 10px;
+}
+
+ .blokje ul li a:hover img {
+ 	-webkit-transform:scale(1);
+	-moz-transform:scale(1);
+	-o-transform:scale(1);
+	-ms-transform:scale(1);
+	transform:scale(1);
+ 	}
+ 
+.toptekst {
+	width: 95%;
+	text-align: left;
+ 	background-color: #FFFFFF;
+	color: #787E7F;
+	/* margin-bottom: 5px; */
+	border-radius: 15px;  
+	border-color: black;
+	border-width: 1px;
+	border-style: solid;
+	padding: 15px 10px 15px 10px;
+	}
+
+.toptekst p {
+   color: black;
+   font-size: 20px;
+   text-align: center;
+}
+
+strong { 
+font-weight: bold; 
+/* color: #FFFFFF; */
+}
+
+.vettelink {
+font-weight: bold; 
+color: #FFFFFF;
+}
+
+.centreren {
+text-align: center;
+}
+
+.toptekst {
+border-block-style:  none;
+border-radius:  0;
+border-color:  white;
+}
+
+#klokbalk {
+color: #7C4EDF;
+}
+}

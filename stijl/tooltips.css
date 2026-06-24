@@ -1,0 +1,12 @@
+
+/* Fading Tooltips */
+div#toolTip {
+  position:absolute;
+  width:220px;
+  background:#00008C;
+  border:2px double #fff;
+  text-align:left;
+  padding:5px;
+  z-index:1000;
+  color: #ffffff;
+}
